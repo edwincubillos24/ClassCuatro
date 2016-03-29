@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">NotasApp</string>
+    <string name="exposiciones">Esposizione</string>
+    <string name="practicas">Practica</string>
+    <string name="proyecto">Progetto</string>
+    <string name="calcular">Calcolare</string>
+    <string name="notaFinal">End note</string>
+    <string name="titulo">Percentuale (%)</string>
+    <string name="guardar">Salvare</string>
+    <string name="configurar">Configurare</string>
+</resources>

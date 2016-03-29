@@ -55,6 +55,7 @@ public class MainActivity extends AppCompatActivity {
             intent.putExtra("pExpo",15);
             intent.putExtra("pPrac",50);
             intent.putExtra("pProy",35);
+            //startActivity(intent);
             startActivityForResult(intent, 1234);
         }
         return super.onOptionsItemSelected(item);
@@ -71,13 +72,5 @@ public class MainActivity extends AppCompatActivity {
             Toast.makeText(MainActivity.this, "Nuevos Datos: Exposiciones: "+exp+" Practicas"+pra+" " +
                             "Proyecto"+pro,Toast.LENGTH_SHORT).show();
         }
-
-
-
-
-
-
-
-
     }
 }
